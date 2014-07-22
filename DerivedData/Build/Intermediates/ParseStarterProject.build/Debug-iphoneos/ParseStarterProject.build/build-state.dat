@@ -1,0 +1,367 @@
+TParseStarterProject
+v7
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ResourceRules.plist
+cProcessPCH /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/PrecompiledHeaders/ParseStarterProject-Prefix-covokqgcexysugaxntnwjwkkyfca/ParseStarterProject-Prefix.pch.pch ParseStarterProject/ParseStarterProject-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/main.o /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProjectAppDelegate.o /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProjectViewController.o /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ParseStarterProject normal armv7
+cCopyStringsFile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/en.lproj/InfoPlist.strings ParseStarterProject/en.lproj/InfoPlist.strings
+cCompileXIB /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/en.lproj/MainWindow.xib
+cCompileXIB /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/en.lproj/ParseStarterProjectViewController.xib
+cCopyPlistFile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Entitlements.plist ParseStarterProject/Entitlements.plist
+cCopyPNGFile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Default.png ParseStarterProject/Default.png
+cCopyPNGFile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Default-568h@2x.png ParseStarterProject/Default-568h@2x.png
+cCopyPNGFile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Default@2x.png ParseStarterProject/Default@2x.png
+cProcessInfoPlistFile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Info.plist /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProject-Info.plist
+cGenerateDSYMFile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app.dSYM /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ParseStarterProject
+cProcessProductPackaging /Users/don/Library/MobileDevice/Provisioning\ Profiles/E4CB5535-9873-4C9A-9D1B-B39F021B40D1.mobileprovision /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/embedded.mobileprovision
+cTouch /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app
+cProcessProductPackaging /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/Entitlements.plist /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject.app.xcent
+cCodeSign /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app
+
+CBuild AST from /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectAppDelegate.m
+r0
+
+CBuild AST from /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectViewController.m
+r0
+
+CBuild AST from /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies180551e2c67eb941^815951e2c67eb941^---0#1#1#--18"Check dependencies36"A719C2F3-0AC9-40FF-A242-18095408EF12-
+
+CCodeSign /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app
+s427738832.349647
+e427738832.488172
+r1
+xCodeSign
+x/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Sign /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app74"CodeSign DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app969259d0c67eb941^4df97cd0c67eb941^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/0000000000000000^1211"CodeSign DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app    cd /Users/don/workspace/ParseStarterProjectContact    export CODESIGN_ALLOCATE=/Applications/Xcode6-Beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Signing Identity:     "iPhone Developer: Don Onwunumah-Okungbowa (T96AGB339W)"Provisioning Profile: "iOS Team Provisioning Profile: *"                      (E4CB5535-9873-4C9A-9D1B-B39F021B40D1)    /usr/bin/codesign --force --sign BDC1732AAD908642B170BE8F73C79627055691F3 --resource-rules=/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ResourceRules.plist --entitlements /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject.app.xcent /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app36"8E72261F-2590-482D-BD4A-5E9FC9DC9752-
+b3EDAEF5E-8B44-43F8-BF17-8B6AF5B5A1C7
+
+CCompileC DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProjectAppDelegate.o /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427734720.294178
+e427734720.350969
+r1
+xCompileC
+xDerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProjectAppDelegate.o
+x/Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectAppDelegate.m
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/Parse.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFACL.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFAnalytics.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFAnonymousUtils.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFUser.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFConstants.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFObject.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFSubclassing.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFCloud.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFFile.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFGeoPoint.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFQuery.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFRelation.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFRole.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFImageView.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFInstallation.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFLogInViewController.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFLogInView.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFSignUpViewController.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFSignUpView.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFProduct.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFProductTableViewController.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFQueryTableViewController.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFTableViewCell.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PF_EGORefreshTableHeaderView.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFPurchase.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFPush.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFTwitterUtils.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PF_Twitter.h
+d/Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectAppDelegate.h
+d/Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectViewController.h
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectAppDelegate.m283"CompileC DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProjectAppDelegate.o ParseStarterProject/ParseStarterProjectAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler3d5f4bc0b67eb941^38da59c0b67eb941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectAppDelegate.m0000000000000000^4163"CompileC DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProjectAppDelegate.o ParseStarterProject/ParseStarterProjectAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/don/workspace/ParseStarterProjectContact    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wunreachable-code -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.3 -iquote /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject-generated-files.hmap -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject-own-target-headers.hmap -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject-all-target-headers.hmap -iquote /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject-project-headers.hmap -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode6-Beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/DerivedSources/armv7 -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/DerivedSources -F/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos -F/Users/don/workspace/ParseStarterProjectContact -include /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/PrecompiledHeaders/ParseStarterProject-Prefix-covokqgcexysugaxntnwjwkkyfca/ParseStarterProject-Prefix.pch -MMD -MT dependencies -MF /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProjectAppDelegate.d --serialize-diagnostics /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProjectAppDelegate.dia -c /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectAppDelegate.m -o /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProjectAppDelegate.o36"002F2713-DE74-4CC5-AFBB-A2F8366064AF-
+bEE78B975-9319-41CA-8E60-38D292F0107A
+
+CCompileC DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProjectViewController.o /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427738832.151838
+e427738832.205380
+r1
+xCompileC
+xDerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProjectViewController.o
+x/Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectViewController.m
+d/Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectViewController.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/Parse.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFACL.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFAnalytics.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFAnonymousUtils.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFUser.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFConstants.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFObject.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFSubclassing.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFCloud.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFFile.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFGeoPoint.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFQuery.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFRelation.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFRole.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFImageView.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFInstallation.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFLogInViewController.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFLogInView.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFSignUpViewController.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFSignUpView.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFProduct.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFProductTableViewController.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFQueryTableViewController.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFTableViewCell.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PF_EGORefreshTableHeaderView.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFPurchase.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFPush.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFTwitterUtils.h
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PF_Twitter.h
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectViewController.m289"CompileC DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProjectViewController.o ParseStarterProject/ParseStarterProjectViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerf6eb26d0c67eb941^f79434d0c67eb941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectViewController.m0000000000000000^4181"CompileC DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProjectViewController.o ParseStarterProject/ParseStarterProjectViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/don/workspace/ParseStarterProjectContact    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wunreachable-code -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.3 -iquote /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject-generated-files.hmap -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject-own-target-headers.hmap -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject-all-target-headers.hmap -iquote /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject-project-headers.hmap -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode6-Beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/DerivedSources/armv7 -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/DerivedSources -F/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos -F/Users/don/workspace/ParseStarterProjectContact -include /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/PrecompiledHeaders/ParseStarterProject-Prefix-covokqgcexysugaxntnwjwkkyfca/ParseStarterProject-Prefix.pch -MMD -MT dependencies -MF /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProjectViewController.d --serialize-diagnostics /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProjectViewController.dia -c /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectViewController.m -o /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProjectViewController.o36"831EED94-60FD-4C75-83C2-68319C829DB2-
+b3EDAEF5E-8B44-43F8-BF17-8B6AF5B5A1C7
+
+CCompileC DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/main.o /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427734720.294056
+e427734720.310895
+r1
+xCompileC
+xDerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/main.o
+x/Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/main.m
+d/Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectAppDelegate.h
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/main.m231"CompileC DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/main.o ParseStarterProject/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler295c4bc0b67eb941^9a974fc0b67eb941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/main.m0000000000000000^4007"CompileC DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/main.o ParseStarterProject/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/don/workspace/ParseStarterProjectContact    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wunreachable-code -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.3 -iquote /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject-generated-files.hmap -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject-own-target-headers.hmap -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject-all-target-headers.hmap -iquote /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject-project-headers.hmap -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode6-Beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/DerivedSources/armv7 -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/DerivedSources -F/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos -F/Users/don/workspace/ParseStarterProjectContact -include /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/PrecompiledHeaders/ParseStarterProject-Prefix-covokqgcexysugaxntnwjwkkyfca/ParseStarterProject-Prefix.pch -MMD -MT dependencies -MF /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/main.dia -c /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/main.m -o /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/main.o36"79AF578A-3DF7-4157-80A0-BBCF9C1453B1-
+bEE78B975-9319-41CA-8E60-38D292F0107A
+
+CCompileXIB /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/en.lproj/MainWindow.xib
+s427734720.552588
+e427734727.995746
+r1
+xCompileXIB
+x/Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/en.lproj/MainWindow.xib
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile XIB file /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/en.lproj/MainWindow.xib54"CompileXIB ParseStarterProject/en.lproj/MainWindow.xiba5838dc0b67eb941^8ae9fec7b67eb941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/en.lproj/MainWindow.xib0000000000000000^1101"CompileXIB ParseStarterProject/en.lproj/MainWindow.xib    cd /Users/don/workspace/ParseStarterProjectContact    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin/..    /Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin/ibtool --target-device iphone --errors --warnings --notices --module ParseStarterProject --minimum-deployment-target 4.3 --output-partial-info-plist /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/MainWindow-PartialInfo.plist --auto-activate-custom-fonts --output-format human-readable-text --compile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/en.lproj/MainWindow.nib /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/en.lproj/MainWindow.xib36"522E49DF-8A04-4E52-9D78-6851949FDA29-
+bEE78B975-9319-41CA-8E60-38D292F0107A
+
+CCompileXIB /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/en.lproj/ParseStarterProjectViewController.xib
+s427734720.552658
+e427734728.200695
+r1
+xCompileXIB
+x/Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/en.lproj/ParseStarterProjectViewController.xib
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compile XIB file /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/en.lproj/ParseStarterProjectViewController.xib77"CompileXIB ParseStarterProject/en.lproj/ParseStarterProjectViewController.xibcf858dc0b67eb941^246133c8b67eb941^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/en.lproj/ParseStarterProjectViewController.xib0000000000000000^1193"CompileXIB ParseStarterProject/en.lproj/ParseStarterProjectViewController.xib    cd /Users/don/workspace/ParseStarterProjectContact    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin/..    /Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin/ibtool --target-device iphone --errors --warnings --notices --module ParseStarterProject --minimum-deployment-target 4.3 --output-partial-info-plist /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProjectViewController-PartialInfo.plist --auto-activate-custom-fonts --output-format human-readable-text --compile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/en.lproj/ParseStarterProjectViewController.nib /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/en.lproj/ParseStarterProjectViewController.xib36"5B28C30A-581B-4804-9452-DBB6C7EF66A6-
+bEE78B975-9319-41CA-8E60-38D292F0107A
+
+CCopyPNGFile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Default-568h@2x.png ParseStarterProject/Default-568h@2x.png
+s427734720.711862
+e427734721.105293
+r1
+xCopyPNGFile
+x/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Default-568h@2x.png
+xParseStarterProject/Default-568h@2x.png
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Copy /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/Default-568h@2x.png137"CopyPNGFile DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Default-568h@2x.png ParseStarterProject/Default-568h@2x.png5248b6c0b67eb941^23f51ac1b67eb941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/Default-568h@2x.png0000000000000000^735"CopyPNGFile DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Default-568h@2x.png ParseStarterProject/Default-568h@2x.png    cd /Users/don/workspace/ParseStarterProjectContact    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/Default-568h@2x.png /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Default-568h@2x.png36"BF9B8950-41E1-46C9-AF9E-6089D9A167EF-
+bEE78B975-9319-41CA-8E60-38D292F0107A
+
+CCopyPNGFile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Default.png ParseStarterProject/Default.png
+s427734720.711856
+e427734721.080720
+r1
+xCopyPNGFile
+x/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Default.png
+xParseStarterProject/Default.png
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Copy /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/Default.png121"CopyPNGFile DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Default.png ParseStarterProject/Default.pngc349b6c0b67eb941^b1a414c1b67eb941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/Default.png0000000000000000^703"CopyPNGFile DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Default.png ParseStarterProject/Default.png    cd /Users/don/workspace/ParseStarterProjectContact    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/Default.png /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Default.png36"44B9E4D2-39BF-436B-9317-601E717E10C8-
+bEE78B975-9319-41CA-8E60-38D292F0107A
+
+CCopyPNGFile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Default@2x.png ParseStarterProject/Default@2x.png
+s427734721.080838
+e427734721.138844
+r1
+xCopyPNGFile
+x/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Default@2x.png
+xParseStarterProject/Default@2x.png
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/Default@2x.png127"CopyPNGFile DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Default@2x.png ParseStarterProject/Default@2x.pnga9bd14c1b67eb941^df8b23c1b67eb941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/Default@2x.png0000000000000000^715"CopyPNGFile DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Default@2x.png ParseStarterProject/Default@2x.png    cd /Users/don/workspace/ParseStarterProjectContact    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/Default@2x.png /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Default@2x.png36"1C2BAEBC-7FF0-412B-8358-EDE866A1AF6A-
+bEE78B975-9319-41CA-8E60-38D292F0107A
+
+CCopyPlistFile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Entitlements.plist ParseStarterProject/Entitlements.plist
+s427734720.552986
+e427734720.711659
+r1
+xCopyPlistFile
+x/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Entitlements.plist
+xParseStarterProject/Entitlements.plist
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/Entitlements.plist137"CopyPlistFile DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Entitlements.plist ParseStarterProject/Entitlements.plist55a18dc0b67eb941^236ab6c0b67eb941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/Entitlements.plist0000000000000000^600"CopyPlistFile DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Entitlements.plist ParseStarterProject/Entitlements.plist    cd /Users/don/workspace/ParseStarterProjectContact    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app -- ParseStarterProject/Entitlements.plist36"FB1E773F-4E3F-4990-B68D-1A106D95BA46-
+bEE78B975-9319-41CA-8E60-38D292F0107A
+
+CCopyStringsFile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/en.lproj/InfoPlist.strings ParseStarterProject/en.lproj/InfoPlist.strings
+s427734720.552503
+e427734720.711627
+r1
+xCopyStringsFile
+x/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/en.lproj/InfoPlist.strings
+xParseStarterProject/en.lproj/InfoPlist.strings
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/en.lproj/InfoPlist.strings155"CopyStringsFile DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/en.lproj/InfoPlist.strings ParseStarterProject/en.lproj/InfoPlist.stringsd87f8dc0b67eb941^4167b6c0b67eb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/en.lproj/InfoPlist.strings0000000000000000^676"CopyStringsFile DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/en.lproj/InfoPlist.strings ParseStarterProject/en.lproj/InfoPlist.strings    cd /Users/don/workspace/ParseStarterProjectContact    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/en.lproj -- ParseStarterProject/en.lproj/InfoPlist.strings36"C0763D57-BEDA-487A-968F-457251FD4AC9-
+bEE78B975-9319-41CA-8E60-38D292F0107A
+
+CCpResource /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ResourceRules.plist
+s427734720.103566
+e427734720.104186
+r1
+xCpResource
+x/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist
+xDerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ResourceRules.plist
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Copy /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist225"CpResource /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ResourceRules.plist828e1ac0b67eb941^58e51ac0b67eb941^---0#0#1#-19%DVTDocumentLocation2@135"file:///Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist0000000000000000^838"CpResource /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ResourceRules.plist    cd /Users/don/workspace/ParseStarterProjectContact    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app36"84839BEE-FEA5-46E6-B4CD-1241A6952FBC-
+bEE78B975-9319-41CA-8E60-38D292F0107A
+
+CGenerateDSYMFile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app.dSYM /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ParseStarterProject
+s427738832.282334
+e427738832.346235
+r1
+xGenerateDSYMFile
+x/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app.dSYM
+x/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ParseStarterProject
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Generate /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app.dSYM173"GenerateDSYMFile DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app.dSYM DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ParseStarterProject2f5248d0c67eb941^72a358d0c67eb941^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app.dSYM/0000000000000000^794"GenerateDSYMFile DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app.dSYM DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ParseStarterProject    cd /Users/don/workspace/ParseStarterProjectContact    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ParseStarterProject -o /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app.dSYM36"0C84C4D1-535E-4CEC-AD3A-E01925E2596F-
+b3EDAEF5E-8B44-43F8-BF17-8B6AF5B5A1C7
+
+CLd /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ParseStarterProject normal armv7
+s427738832.206015
+e427738832.280507
+r1
+xLd
+x/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ParseStarterProject
+xnormal
+xarmv7
+d/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProject.LinkFileList
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/crt1.3.1.o
+d/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/main.o
+d/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProjectAppDelegate.o
+d/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProjectViewController.o
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/libz.1.1.3.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Users/don/workspace/ParseStarterProjectContact/Parse.framework/Parse
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/libgcc_s.1.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_coreservices.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_coretls.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_networkextension.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libsystem_trace.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/usr/lib/libextension.dylib
+d/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Link /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ParseStarterProject101"Ld DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ParseStarterProject normal armv721c934d0c67eb941^18d047d0c67eb941^---0#0#1#--1816"Ld DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ParseStarterProject normal armv7    cd /Users/don/workspace/ParseStarterProjectContact    export IPHONEOS_DEPLOYMENT_TARGET=4.3    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk -L/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos -F/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos -F/Users/don/workspace/ParseStarterProjectContact -filelist /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProject.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=4.3 -framework AddressBook -framework CoreLocation -framework CoreGraphics -framework QuartzCore -lz.1.1.3 -framework Security -framework AudioToolbox -framework MobileCoreServices -framework SystemConfiguration -framework CFNetwork -framework UIKit -framework Foundation -framework Parse -Xlinker -dependency_info -Xlinker /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/Objects-normal/armv7/ParseStarterProject_dependency_info.dat -o /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ParseStarterProject36"76B9B2A9-6CE1-48DC-A9EC-29C07A6F052C-
+b3EDAEF5E-8B44-43F8-BF17-8B6AF5B5A1C7
+
+CProcessInfoPlistFile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Info.plist /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProject-Info.plist
+s427734728.201367
+e427734728.203150
+r1
+xProcessInfoPlistFile
+x/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Info.plist
+x/Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProject-Info.plist
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Process /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProject-Info.plist148"ProcessInfoPlistFile DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Info.plist ParseStarterProject/ParseStarterProject-Info.plistc49933c8b67eb941^150334c8b67eb941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProject-Info.plist0000000000000000^1425"ProcessInfoPlistFile DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Info.plist ParseStarterProject/ParseStarterProject-Info.plist    cd /Users/don/workspace/ParseStarterProjectContact    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProject-Info.plist -genpkginfo /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/ResourceRules.plist -additionalcontentfile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/MainWindow-PartialInfo.plist -additionalcontentfile /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProjectViewController-PartialInfo.plist -o /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/Info.plist36"BD712DA9-BA76-4EC0-BCFD-A84A4919A09E-
+bEE78B975-9319-41CA-8E60-38D292F0107A
+
+CProcessPCH /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/PrecompiledHeaders/ParseStarterProject-Prefix-covokqgcexysugaxntnwjwkkyfca/ParseStarterProject-Prefix.pch.pch ParseStarterProject/ParseStarterProject-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427734720.105035
+e427734720.272672
+r1
+xProcessPCH
+x/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/PrecompiledHeaders/ParseStarterProject-Prefix-covokqgcexysugaxntnwjwkkyfca/ParseStarterProject-Prefix.pch.pch
+xParseStarterProject/ParseStarterProject-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProject-Prefix.pch
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Precompile /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProject-Prefix.pch272"ProcessPCH DerivedData/Build/Intermediates/PrecompiledHeaders/ParseStarterProject-Prefix-covokqgcexysugaxntnwjwkkyfca/ParseStarterProject-Prefix.pch.pch ParseStarterProject/ParseStarterProject-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler56f51ac0b67eb941^25cf45c0b67eb941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProject-Prefix.pch0000000000000000^3711"ProcessPCH DerivedData/Build/Intermediates/PrecompiledHeaders/ParseStarterProject-Prefix-covokqgcexysugaxntnwjwkkyfca/ParseStarterProject-Prefix.pch.pch ParseStarterProject/ParseStarterProject-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/don/workspace/ParseStarterProjectContact    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wunreachable-code -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=4.3 -iquote /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject-generated-files.hmap -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject-own-target-headers.hmap -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject-all-target-headers.hmap -iquote /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject-project-headers.hmap -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/include -I/Applications/Xcode6-Beta3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/DerivedSources/armv7 -I/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/DerivedSources -F/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos -F/Users/don/workspace/ParseStarterProjectContact -MMD -MT dependencies -MF /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/PrecompiledHeaders/ParseStarterProject-Prefix-covokqgcexysugaxntnwjwkkyfca/ParseStarterProject-Prefix.pch.d -c /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProject-Prefix.pch -o /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/PrecompiledHeaders/ParseStarterProject-Prefix-covokqgcexysugaxntnwjwkkyfca/ParseStarterProject-Prefix.pch.pch36"FCDC7D6D-21F7-4FB5-9AAB-1072BA8C4869-
+bEE78B975-9319-41CA-8E60-38D292F0107A
+
+CProcessPCH /Users/don/workspace/ParseStarterProjectContact/DerivedData/ParseStarterProject/Index/PrecompiledHeaders/ParseStarterProject-Prefix-bpvklqkavfbklgbxwizysugykpoz_ast/ParseStarterProject-Prefix.pch.pch ParseStarterProject/ParseStarterProject-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/Entitlements.plist /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject.app.xcent
+s427734728.331485
+e427734728.333036
+r1
+xProcessProductPackaging
+x/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/Entitlements.plist
+x/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject.app.xcent
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Process product packaging280"ProcessProductPackaging /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/Entitlements.plist DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject.app.xcent42e854c8b67eb941^394355c8b67eb941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/don/workspace/ParseStarterProjectContact/ParseStarterProject.app/Info.plist0034ac7addffdf42^908"ProcessProductPackaging /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/Entitlements.plist DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject.app.xcent    cd /Users/don/workspace/ParseStarterProjectContact    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Intermediates/ParseStarterProject.build/Debug-iphoneos/ParseStarterProject.build/ParseStarterProject.app.xcent36"A5E008C9-93A8-4E2B-9887-441022F8C533-
+bEE78B975-9319-41CA-8E60-38D292F0107A
+
+CProcessProductPackaging /Users/don/Library/MobileDevice/Provisioning\ Profiles/E4CB5535-9873-4C9A-9D1B-B39F021B40D1.mobileprovision /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/embedded.mobileprovision
+s427734728.291905
+e427734728.318193
+r1
+xProcessProductPackaging
+x/Users/don/Library/MobileDevice/Provisioning Profiles/E4CB5535-9873-4C9A-9D1B-B39F021B40D1.mobileprovision
+x/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/embedded.mobileprovision
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Process product packaging222"ProcessProductPackaging /Users/don/Library/MobileDevice/Provisioning\ Profiles/E4CB5535-9873-4C9A-9D1B-B39F021B40D1.mobileprovision DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/embedded.mobileprovision22c74ac8b67eb941^147651c8b67eb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/don/Library/MobileDevice/Provisioning%20Profiles/E4CB5535-9873-4C9A-9D1B-B39F021B40D1.mobileprovision0000000000000000^766"ProcessProductPackaging /Users/don/Library/MobileDevice/Provisioning\ Profiles/E4CB5535-9873-4C9A-9D1B-B39F021B40D1.mobileprovision DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/embedded.mobileprovision    cd /Users/don/workspace/ParseStarterProjectContact    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/don/Library/MobileDevice/Provisioning\ Profiles/E4CB5535-9873-4C9A-9D1B-B39F021B40D1.mobileprovision -o /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/embedded.mobileprovision36"8BDBA4C6-1216-4AD0-945C-948763901ECB-
+bEE78B975-9319-41CA-8E60-38D292F0107A
+
+CTouch /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app
+s427738832.346592
+e427738832.349242
+r1
+xTouch
+x/Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Touch /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app71"Touch DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app26c458d0c67eb941^b66859d0c67eb941^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app/0000000000000000^465"Touch DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app    cd /Users/don/workspace/ParseStarterProjectContact    export PATH="/Applications/Xcode6-Beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta3.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/don/workspace/ParseStarterProjectContact/DerivedData/Build/Products/Debug-iphoneos/ParseStarterProject.app36"C1324D73-1D57-4ACC-9408-FC3A09A3A0E4-
+b3EDAEF5E-8B44-43F8-BF17-8B6AF5B5A1C7
+

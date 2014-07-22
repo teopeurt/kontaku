@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectAppDelegate.m \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/Parse.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFACL.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFAnalytics.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFAnonymousUtils.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFUser.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFConstants.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFObject.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFSubclassing.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFCloud.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFFile.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFGeoPoint.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFQuery.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFRelation.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFRole.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFImageView.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFInstallation.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFLogInViewController.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFLogInView.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFSignUpViewController.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFSignUpView.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFProduct.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFProductTableViewController.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFQueryTableViewController.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFTableViewCell.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PF_EGORefreshTableHeaderView.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFPurchase.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFPush.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PFTwitterUtils.h \
+  /Users/don/workspace/ParseStarterProjectContact/Parse.framework/Headers/PF_Twitter.h \
+  /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectAppDelegate.h \
+  /Users/don/workspace/ParseStarterProjectContact/ParseStarterProject/ParseStarterProjectViewController.h
